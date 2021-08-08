@@ -1,0 +1,1243 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+/*+++++++++++++++++++ CABECERA ++++++++++++++++++++++++++++*/
+header {
+width: 100%;
+height: 60px;
+position: fixed;
+z-index: 998;
+}
+#logo{
+	width: 190px;
+	left: 5%;
+	top:30px;
+	position: fixed;
+	z-index: 999;
+	cursor: pointer;
+}
+/*++++++++++++++++++++ HAMBURGUESA +++++++++++++++++++++++++*/
+nav {
+	position: fixed;
+	top: 30px;
+	right: 30px;
+	z-index: 2;
+	cursor: pointer;
+}
+.menu{
+	position: fixed;
+	right: 40px;
+	color: white;
+	top: 70px;
+	z-index: 3;
+	font-weight: 200;
+}
+.check{
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	top:0px;
+	left: 0px;
+	z-index: 2;
+	opacity: 0;
+		cursor: pointer;
+}
+#burguer{
+
+	width: 50px;
+	height: 50px;
+	padding-top: 5px;
+	top:0px;
+	left:0px;
+	position: relative;
+}
+#burguer > li{
+	background-color: white;
+	width: 45px;
+	height: 4px;
+transition: 0.5s;
+	padding: -15px;
+	margin:0;
+	border: 0;
+
+}
+#burguer .lista1{
+	right: 10px;
+	position: absolute;
+	top:0px;
+
+}
+#burguer .lista2{
+	width: 25px;
+		right: 10px;
+		top: 10px;
+	position: absolute;
+}
+
+#burguer .lista3{
+	width: 35px;
+		right: 10px;
+		top: 20px;
+	position: absolute;
+
+}
+ul{
+	list-style-type: none;
+	position: relative;
+
+}
+nav:hover #burguer .lista2, nav:hover #burguer .lista3{
+	width: 45px;
+}
+
+/*+++++++++++++++++Bloque++++++++++++++++++++++++++++*/
+.bloqueColor1{
+	background-color: #3e3e3d;
+	width: 25%;
+	height: 100vh;
+	position: absolute;
+	right: 0;
+	top: 0;
+	transition: 1.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.bloquecolor2{
+background-color: #3e3e3d;
+	width: 25%;
+	height: 100vh;
+	position: fixed;
+	right: -25%;
+	top: 0;
+	transition: 1.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 887;
+}
+.fondo{
+	width: 75%;
+	height: 100vh;
+	background-image: url('../img/globito2.jpg');
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.weare{
+	width: 100%;
+	height: 100%;
+	display: block;
+	transition: 2.5s;
+	z-index: 888;
+
+}
+.menuabierto{
+	right: 0;
+	width: 100%;
+	transition: 1.5s;
+	
+}
+.menuabierto2{
+	right: 0;
+	width: 100%;
+	transition: 1.5s;
+}
+.weareabierto{
+	display: none;
+}
+.cajanav{
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+.navegador{
+
+	width: 1200px;
+	height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.linea1{
+		display: flex;
+		justify-content: space-between;
+		opacity: 0;
+}
+.navegador li{
+	width: 30%;
+	text-align: center;
+	font-size: 30pt;
+	font-weight: 200;
+	margin-bottom: 40px;
+transition: 1.5s;
+}
+.navegador li a{
+	text-decoration: none;
+	color: white;
+}
+.navegador li a:hover{
+	color:orange;
+}
+.navegadorAbierto{
+	opacity: 1;
+	transition: 1.5s;
+}
+/* QUIEN SOY */
+.quienSoy{
+	width: 100%;
+	display: flex;
+	padding: 180px 200px 80px 200px;
+}
+.tituloSoy{
+	width: 48%;
+
+	position: relative;
+}
+.tituloSoy h2{
+	font-size: 30pt;
+	color: orange;
+	font-weight: 200;
+}
+.tituloSoy h1{
+	font-size: 42pt;
+	color: #3e3e3d;
+	font-weight: 700;
+}
+.textoSoy{
+	margin-top: 70px;
+	text-align: justify;
+	width: 50%;
+}
+.barras{
+	height: 15px;
+	width: 300px;
+
+	display: flex;
+	position: absolute;
+	top: 265px;
+	left: 280px;
+}
+.barra1{
+	height: 15px;
+	width: 250px;
+	background-color: orange;
+}
+.barra2{
+	height: 15px;
+	width: 10px;
+	background-color: orange;
+	margin-left: 10px;
+}
+.botonSoy{
+	width: 200px;
+	height: 60px;
+	border: 2px solid orange;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.botonSoy p{
+	color: orange;
+	font-size: 12pt;
+	text-transform: uppercase;
+}
+.botonSoy:hover{
+	background-color: orange;
+}
+.botonSoy:hover p{
+	color: white;
+}
+/* SECCION DE INTERESES */
+.intereses{
+	margin: 200px 0 150px 0;
+	width: 100%;
+	padding:20px 200px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #f0f0f0;
+}
+.sectionInt{
+	width: 23%;
+	display: flex;
+	height: 270px;
+	flex-direction: column;
+	align-items: center;
+}
+.iconoInt{
+	width: 100px;
+	height: 100px;
+		background-size: cover;
+	background-position: center;
+}
+.iconseo{
+	background-image: url('../icon/seo.png');
+}.iconweb{
+	background-image: url('../icon/web.png');
+}.iconvideo{
+	background-image: url('../icon/video.png');
+}.iconfoto{
+	background-image: url('../icon/foto.png');
+}
+.sectionInt h4{
+	margin: 5px 0;
+	font-size: 18pt;
+}
+.sectionInt p{
+	text-align: center;
+}
+
+
+/* SECCION CATEGORIAS */
+.categorias{
+	margin-top: 150px;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+}
+.foto{
+	background-image: url('../img/naranjas.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.foto2{
+	background-image: url('../img/limon.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.foto3{
+	background-image: url('../img/piña.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.foto4{
+	background-image: url('../img/diseñoweb.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.fotogrande{
+	height: 700px;
+	width: 550px;
+	position: absolute;
+	left: 200px;
+	top:130px;
+}
+.fotopeque{
+	height: 600px;
+	width: 450px;
+	position: absolute;
+	left: 400px;
+	top: 200px;
+}
+
+.categorias .titulo1{
+	font-size: 60px;
+	font-weight: 400;
+	color: #858584;
+	position: absolute;
+	left: 800px;
+	top: 0px;
+}
+.titulo2{
+	font-size: 60px;
+	font-weight: 400;
+	color: #858584;
+	position: absolute;
+	left: 800px;
+	top: 60px;
+}
+.texto{
+	width: 650px;
+	height: 500px;
+	position: absolute;
+	right: 200px;
+	top: 240px;
+	font-size: 12pt;
+	font-weight: 400;
+	color: #6e6e6e;
+	text-align: justify;
+}
+.boton{
+	width: 200px;
+	height: 60px;
+	border: 2px solid orange;
+	position: absolute;
+	right: 650px;
+	top: 690px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.boton:hover{
+	background-color: orange;
+}
+.boton p{
+	color: orange;
+	font-size: 12pt;
+	text-transform: uppercase;
+}
+.boton:hover p{
+		color: white;
+}
+.flecha{
+	background-image: url('../icon/flecha.png');
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	right: 200px;
+	top: 690px;
+	cursor: pointer;
+	animation-name: flechazo;
+	transition: 0.5s;
+}
+.flecha:hover{
+	position: absolute;
+	right: 220px;
+	transition: 1s;
+}
+.categorias2,.categorias3,.categorias4{
+	display: none;
+}
+
+
+/* PORTFOLIO */
+.portfolio{
+	margin-top: 100px;
+	margin-bottom: 200px;
+}
+.portfolio h2{
+	width: 100%;
+	text-align: center;
+	font-size: 36pt;
+	font-weight: 600;
+	color: #3e3e3d;
+}
+.bloques{
+	display: flex;
+}
+.bloque{
+	margin-top: 50px;
+	width: 25%;
+	height: 700px;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.color{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+		width: 100%;
+	height: 100%;
+}
+.bloque:hover .color{
+	background-color: rgba(255,80,0,0.5);
+}
+.bloque1{
+	background-image: url('../img/branding.jpg');
+}
+.bloque2{
+	background-image: url('../img/diseñoweb.jpg');
+}
+.bloque3{
+	background-image: url('../img/carteleria.jpg');
+}
+.bloque4{
+	background-image: url('../img/packaging.jpg');
+}
+.bloques a{
+		text-decoration: none;
+}
+.bloque h3{
+	font-size: 26pt;
+	font-weight: 600;
+	color: white;
+}
+/*    CONTENIDO    */
+
+.contenido{
+	width: 100%;
+	height: 850px;
+	background-image: url('../img/oso.jpg');
+	background-size: cover;
+	background-position: 0% 100%;
+	margin-bottom: 300px;
+	position: relative;
+}
+.bloqueContenido{
+	background-color: white;
+	width: 700px;
+	height: 600px;
+	position: absolute;
+	right: 200px;
+	top: 400px;
+	border:2px solid orange;
+}
+.bloquetexto{
+	width: 600px;
+	height: 500px;
+	position: absolute;
+	right: 250px;
+	top: 425px;
+
+}
+.bloquetexto h2{
+	font-size: 30pt;
+	font-weight: 400;
+	color: #6e6e6e;
+	margin-bottom: 10px;
+}
+.bloquetexto p{
+	font-size: 12pt;
+	color: #6e6e6e;
+	text-align: justify;
+}
+.botonConte{
+	width: 200px;
+	height: 60px;
+	border: 2px solid orange;
+	position: absolute;
+	right: 400px;
+	top: 470px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.botonConte p{
+	color: orange;
+	font-size: 12pt;
+	text-transform: uppercase;
+
+}
+.botonConte:hover{
+	background-color: orange;
+}
+.botonConte:hover p{
+	color: white;
+}
+/*      BLOG      */
+.blog{
+
+	width: 100%;
+	height: 1000px;
+
+	display: flex;
+}
+.imgblog{
+	background-image: url('../img/blog.svg');
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+	width: 45%;
+}
+.bloquetextoconte{
+	width: 40%;
+	height: 600px;
+	margin-top: 120px;
+	margin-left: 100px;
+	padding: 40px;
+	position: relative;
+	text-align: justify;
+}
+.linea{
+	width: 150px;
+	height: 10px;
+	background-color: orange;
+	float: right;
+	margin-top: 50px;
+}
+.botonblog{
+	width: 200px;
+	height: 60px;
+	border:2px solid orange;
+	position: absolute;
+	right: 520px;
+	top: 520px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.botonblog p{
+	color: orange;
+	font-size: 12pt;
+	text-transform: uppercase;
+}
+.botonblog:hover{
+	background-color: orange;
+}
+.botonblog:hover p{
+	color: white;
+}
+/*       CONTÁCTANOS     */
+.contactanos{
+	text-align: center;
+
+}
+.contactanos h2{
+	color: orange;
+	font-size: 30pt;
+	font-weight: 200;
+}
+.contactanos h1{
+	margin-top: -15px;
+	margin-bottom: 15px;
+	font-size: 35pt;
+	font-weight: 500;
+	color: #3e3e3d;
+	text-transform: uppercase;
+}
+.contactanos p{
+	width:35%;
+	color: #3e3e3d;
+	font-size: 14pt;
+	margin: 0 auto;
+}
+.botonContacto{
+	width: 200px;
+	height: 60px;
+	border: 2px solid orange;
+	margin: 50px auto 50px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.botonContacto p{
+	color: orange;
+	font-size: 12pt;
+	text-transform: uppercase;
+}
+.lineaseparacion{
+	width: 100%;
+	height: 2px;
+	background-color: orange;
+	margin: 80px 0;
+}
+.lineafinal{
+	margin-bottom: 200px;
+}
+/*    FOOTER    */
+
+footer{
+	width: 100%;
+	height: 280px;
+	background-color: #3e3e3d;
+	padding: 40px 200px;
+	display: flex;
+	justify-content: space-around;
+	color: white;
+}
+
+.icono{
+	color: white;
+	font-size: 18pt;
+	margin-right: 25px;
+
+}
+
+footer p{
+	font-size: 14pt;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+footer ul li{
+	font-size: 12pt;
+	font-weight: 300;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+.linea2{
+	margin-top: 15px;
+	width: 100px;
+	height: 6px;
+	background-color: white;
+}
+.copy{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 10pt;
+	height: 40px;
+	width: 100%;
+	background-color: #30302f;
+	color:white;
+	font-weight: 200;
+}
+/*++++++++++++SERVICIOS++++++++++++++++++++++++++++++++++*/
+.cabecera{
+	background-color: #3d3d3d;
+	height: 100px;
+	width: 100%;
+position: fixed;
+z-index: 998;
+top: 0;
+}
+#fondomenu2{
+	opacity: 0;
+}
+.weare2{
+opacity: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	transition: 2.5s;
+	z-index: 888;
+}
+.servicios{
+		width: 70%;
+	height: 800px;
+
+	margin: 80px auto 0 auto;
+}
+.ser1{
+	width: 100%;
+	height: 65%;
+	display: inline-flex;
+}
+.serlogo, .bloq2{
+	margin: 5px;
+	height: calc(100% - 10px);
+	width: calc(50% - 5px) ;
+}
+.bloq2{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.serlogo{
+		background-image: url('../img/serlog.jpg');
+		background-size: cover;
+		background-position: center;
+
+}
+.serweb{
+	width: 100%;
+	height: calc(50% - 5px);
+		background-image: url('../img/serweb.jpg');
+		background-size: cover;
+		background-position: center;
+}
+.sercarteleria{
+	width: 100%;
+	height: calc(50% - 5px);
+		background-image: url('../img/sercar.jpg');
+		background-size: cover;
+
+}
+.ser2{
+	width: 100%;
+	height: 35%;
+	margin-top: 5px;
+
+	display: flex;
+	justify-content: space-between;
+}
+.sermultimedia{
+	width: calc(50% - 10px);
+	margin-left: 5px;
+	height: 100%;
+			background-image: url('../img/sermul.jpg');
+		background-size: cover;
+		background-position: center;
+}
+.serbranding{
+	height: 100%;
+	margin-right: 5px;
+		width: calc(50% - 10px);
+			background-image: url('../img/serbran.jpg');
+		background-size: cover;
+		background-position: center;
+}
+.serlogo h3{
+padding-top: 68%;
+margin-left: 5%;
+	color: white;
+}
+.bloq2 h3{
+	padding-top: 30%;
+	margin-left: 5%;
+	color: white;
+}
+.ser2 h3{
+	padding-top: 34%;
+	margin-left: 5%;
+	color: white;
+}
+.cuadronegro{
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+}
+.cuadronegro:hover{
+	background-color: rgba(0, 0, 0, .7);
+
+}
+.serlogo:hover{
+	background-size: 110%;
+}
+.serweb:hover{
+	background-size: 110%;
+}
+.sercarteleria:hover{
+	background-size: 110%;
+}
+.sermultimedia:hover{
+	background-size: 110%;
+}
+.serbranding:hover{
+	background-size: 110%;
+}
+.foter{
+	margin-top: 100px;
+
+}
+/*++++++++++++++BLOG+++++++++++++++++++++++*/
+
+.blog{
+	width: 95%;
+	margin:100px auto 0px auto;
+	display: flex;
+	flex-direction: column;
+}
+.seccion1{
+	width: 100%;
+	height: 780px;
+	display: flex;
+	justify-content: space-between;
+}
+.seccion2{
+	margin: 0 auto;
+	margin-top: -180px;
+	width: 95%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.imagengrande{
+	width: calc(50% - 5px);
+	height: 100%;
+	background-color: red;
+}
+.imagenpequeña{
+		width: calc(50% - 5px);
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.imagenizq{
+	height: 100%;
+	width: calc(50% - 5px);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.imagender{
+	height: 100%;
+	width: calc(50% - 5px);
+		display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.bloquegrande{
+	width: 100%;
+	height: calc(60% - 5px);
+	background-color: violet;
+}
+.bloquepeque{
+	width: 100%;
+	height: calc(40% - 5px);
+	background-color: yellowgreen;
+}
+.bloqueblog{
+	width:  calc(100% / 3 - 10px);
+	height: 400px;
+	background-color: black;
+	margin-top: 10px;
+
+}
+.logo2{
+	width: 120px;
+	top: 15px;
+	left: 5%;
+	position: fixed;
+	z-index: 999;
+}
+.cabecera2{
+	height: 60px;
+
+}
+.burguer{
+
+	top: -15px !important;
+}
+.check{
+	top: -20px !important;
+}
+
+/*++++++++++++++++++SERVICIOS++++++++++++++++++++*/
+.grafica{
+	margin-top: 50px;
+	width: 100%;
+	height: 1600px;
+	background-image: url(../img/fondologo2.png);
+	background-size: cover;
+
+	padding: 100px;
+
+	z-index: 999;
+}
+.grafica2{
+	display: flex;
+	justify-content: space-between;
+}
+.textosgraficalogo{
+	width: 50%;
+	height: 800px;
+}
+.subtextos{
+	display: flex;
+}
+.linea2{
+	height: 3px;
+	width: 55px;
+	background-color: orange;
+}
+.textosgraficalogo h3{
+	margin-left: 10px;
+	font-weight: 400;
+	color: orange;
+}
+.grafica h2{
+	font-size: 42pt;
+	width: 75%;
+	font-weight: 400;
+	line-height: 50pt;
+	color: white;
+	margin-bottom: 30px;
+}
+.grafica p{
+	color: white;
+	width: 65%;
+	font-size: 18px;
+
+}
+.botonlogo{
+	margin-top: 100px;
+	width: 200px;
+	height: 60px;
+	background-color: orange;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.botonlogo:hover{
+	background-color: white;
+}
+.botonlogo p{
+	color: white;
+	font-size: 12pt;
+	text-transform: uppercase;
+}
+.botonlogo:hover p{
+		color: orange;
+}
+.pancake{
+	margin-right: 150px;
+	width: 34%;
+	height: 700px;
+	background-image: url(../img/pancake2.png);
+	background-size: cover;
+}
+.cabecera3{
+	background-color: none;
+	height: 100px;
+	width: 100%;
+position: fixed;
+z-index: 998;
+top: 0;
+}
+.textologo{
+	margin: 0 auto;
+	text-align: center;
+}
+.textologo h3{
+	color: orange;
+	font-weight: 400;
+	font-size: 24px;
+	margin-top: 150px;
+	margin-bottom: 30px;
+}
+.textologo p{
+	color: white;
+margin: 0 auto;
+font-size: 18px;
+font-weight: 400;
+}
+.tarifa{
+
+	position: relative;
+}
+.titulotarifa{
+	text-align: center;
+	font-weight: 300;
+	color: #3d3d3d;
+	font-size:48px;
+	margin-top: 150px;
+	margin-bottom: 100px;
+}
+.tarifaslogos{
+	width: 100%;
+	height: 800px;
+	display: flex;
+	justify-content: space-around;
+	padding:0 150px;
+}
+.iconologo{
+	width: 100px;
+	height: 100px;
+	background-image: url(../img/pincel.png);
+	background-size: cover;
+	margin: 0 auto;
+}
+.iconologo2{
+	width: 100px;
+	height: 100px;
+	background-image: url(../img/corbata.png);
+	background-size: cover;
+	margin: 0 auto;
+}
+.iconologo3{
+	width: 100px;
+	height: 100px;
+	background-image: url(../img/cohete.png);
+	background-size: cover;
+	margin: 0 auto;
+}
+.tarifaslogos h4{
+	font-size: 34px;
+	font-weight: 700;
+	color: #3d3d3d;
+		text-align: center;
+}
+.preciologotipo{
+	font-size: 62px;
+	color: orange;
+	text-align: center;
+font-weight: 500;
+}
+.separadorprecios{
+	height: 1.5px;
+	width: 100%;
+	background-color: #3d3d3d;
+	margin-bottom: 30px;
+	margin-top: -5px;
+}
+.tarifaslogos div p {
+	font-size: 20px;
+	color: #3d3d3d;
+	line-height: 40px;
+}
+.botonprecio{
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	bottom: 100px;
+	border: solid 2px orange;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.botonprecio p{
+	color: orange!important;
+}
+.botonprecio:hover{
+	background-color: orange;
+}
+.botonprecio:hover p{
+		color: white!important;
+
+}
+/*+++++++++++++++OTRA TARIFA++++++++++++++*/
+.otratarifa{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+
+}
+.otratarifa div h2{
+	font-size: 42px;
+	color: orange;
+	width: 80%;
+	margin: 0 auto;
+}
+.otroplan{
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+
+}
+.otroplan .tic{
+	color: #67a969;
+	font-size: 24px;
+	margin-left: 20px;
+}
+.textotarfi{
+	display: flex;
+	align-items: center;
+	width:  50%;
+}
+.textotarfi div{
+	font-size: 20px;
+	margin-left: 10px;
+}
+.flechasdeco{
+	margin: 30px auto;
+	width: 350px;
+	height: 25px;
+	background-image: url(../img/triangulos.png);
+	background-size: cover;
+}
+/*+++++++++++++++++PLAN PERSONAL++++++++++++++++++++*/
+.planpersonal{
+	margin-top: 200px;
+	width: 100%;
+	height: 630px;
+	background-image: url(../img/planespecial2.jpg);
+	background-size: cover;
+	background-position: center;
+	padding:60px 100px;
+}
+.planpersonal div h2{
+	width: 50%;
+	font-weight: 800;
+	line-height:62px;
+	font-size: 56px;
+	color: #3d3d3d;
+}
+.planpersonal .textopersonal{
+	margin-top: 50px;
+	width: 25%;
+	font-size: 22px;
+	color: #3d3d3d;
+}
+.botonpersonal{
+	margin-top: 160px;
+	width: 230px;
+	height: 60px;
+	background-color: #c3494c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+
+}
+.botonpersonal p{
+	color: white!important;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+/*++++++++++++++++++CONECTA++++++++++++++++++*/
+.conecta{
+	margin-top: 200px;
+	width: 100%;
+	height: 500px;
+	background-image: url(../img/conecta.png);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	padding: 0 100px;
+}
+.conectatexto{
+	width: 25%;
+	margin-top: 70px;
+	font-size: 18px;
+}
+/*++++++++++++++++++CÓMO TRABAJAMOS++++++++++++++++++*/
+.trabajamos{
+	margin-top: 150px;
+	width: 100%;
+	height: 500px;
+	background-position: center;
+	background-size: cover;
+	background-image: url(../img/comotrabajamos2.jpg);
+}
+/*++++++++++++++++++CONTACTO SERVICIOS++++++++++++++++++*/
+.contactoservicio{
+	margin: 150px auto;
+	width: 45%;
+	text-align: center;
+}
+.contactoservicio h3{
+	font-size: 40px;
+	font-weight: 300;
+	color: orangered;
+}
+.contactoservicio h2{
+	margin-bottom: 10px;
+	font-size: 46px;
+	color: #3d3d3d;
+}
+.contactoservicio p{
+	width: 90%;
+	margin: 0 auto;
+	font-size: 20px;
+	color: #3d3d3d;
+}
+.formularioservicio{
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+}
+.formularioservicio input{
+	border: 2px solid grey;
+	width: 100%;
+	margin: 5px 0;
+	padding: 10px 20px;
+}
+.mensajeser{
+	height: 150px;
+}
+.botonformu{
+	margin-top: 30px;
+	width: 200px;
+	height: 60px;
+	background-color: #3d3d3d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.botonformu p{
+	color: white!important;
+}
+.botonformu:hover{
+	border: 2px solid #3d3d3d;
+	background-color: transparent;
+
+}
+.botonformu:hover p{
+	color: #3d3d3d!important;
+}
