@@ -532,11 +532,9 @@ transition: 1.5s;
 	color: white;
 }
 /*      BLOG      */
-.blog{
-
+.bloghome{
 	width: 100%;
 	height: 1000px;
-
 	display: flex;
 }
 .imgblog{
@@ -585,7 +583,56 @@ transition: 1.5s;
 .botonblog:hover p{
 	color: white;
 }
+.filtroinfo{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .3);
+}
+.cuadroinfo{
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	padding: 40px;
+	bottom: 0;
+}
+.cuadroinfo h4{
+		font-family: 'Mulish', sans-serif;
+		text-transform: uppercase;
+		color: orange;
+		margin-bottom: 10px;
+}
+.cuadroinfo h3{
+		font-family: 'Poppins', sans-serif;
+		text-transform: uppercase;
+		font-size: 22px;
+		color: white;
+		font-weight: 600;
+}
+.cuadroinfo2{
+	width: 100%;
+	height: 180px;
+	position: absolute;
+	padding: 40px;
+	bottom: 0;
+}
+.cuadroinfo2 h4{
+		font-family: 'Mulish', sans-serif;
+		text-transform: uppercase;
+		color: orange;
+		margin-bottom: 10px;
+}
+.cuadroinfo2 h3{
+		font-family: 'Poppins', sans-serif;
+		text-transform: uppercase;
+		font-size: 18px;
+		color: white;
+		font-weight: 600;
+}
+
+
+
 /*       CONTÁCTANOS     */
+
 .contactanos{
 	text-align: center;
 
@@ -824,7 +871,6 @@ margin-left: 5%;
 }
 .seccion2{
 	margin: 0 auto;
-	margin-top: -180px;
 	width: 95%;
 	display: flex;
 	flex-wrap: wrap;
@@ -833,13 +879,18 @@ margin-left: 5%;
 .imagengrande{
 	width: calc(50% - 5px);
 	height: 100%;
-	background-color: red;
+	background-image: url('../img/blog/blog1.jpg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	cursor: pointer;
 }
 .imagenpequeña{
 		width: calc(50% - 5px);
 	height: 100%;
 	display: flex;
 	justify-content: space-between;
+
 }
 .imagenizq{
 	height: 100%;
@@ -847,6 +898,7 @@ margin-left: 5%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+
 }
 .imagender{
 	height: 100%;
@@ -854,23 +906,88 @@ margin-left: 5%;
 		display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	cursor: pointer;
 }
-.bloquegrande{
+.bloquegrande1{
 	width: 100%;
 	height: calc(60% - 5px);
 	background-color: violet;
+	position: relative;
+			background-image: url('../img/blog/blog4.jpg');
+	background-size: cover;
+	background-position: center;
+cursor: pointer;
 }
-.bloquepeque{
+.bloquegrande2{
+	width: 100%;
+	height: calc(60% - 5px);
+	background-color: violet;
+	position: relative;
+			background-image: url('../img/blog/blog5.jpg');
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+}
+.bloquepeque1{
 	width: 100%;
 	height: calc(40% - 5px);
-	background-color: yellowgreen;
+	position: relative;
+		background-image: url('../img/blog/blog2.jpg');
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+}
+.bloquepeque2{
+	width: 100%;
+	height: calc(40% - 5px);
+	position: relative;
+		background-image: url('../img/blog/blog3.jpg');
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
 }
 .bloqueblog{
 	width:  calc(100% / 3 - 10px);
 	height: 400px;
 	background-color: black;
 	margin-top: 10px;
-
+	position: relative;
+}
+.bloqueblog1{
+		background-image: url('../img/blog/blog6.jpg');
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+}
+.bloqueblog2{
+		background-image: url('../img/blog/blog7.jpg');
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+}
+.bloqueblog3{
+		background-image: url('../img/blog/blog3.jpg');
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+}
+.bloqueblog4{
+		background-image: url('../img/blog/blog8.jpg');
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+}
+.bloqueblog5{
+		background-image: url('../img/blog/blog9.jpg');
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+}
+.bloqueblog6{
+		background-image: url('../img/blog/blog10.jpg');
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
 }
 .logo2{
 	width: 120px;
@@ -895,12 +1012,11 @@ margin-left: 5%;
 .grafica{
 	margin-top: 50px;
 	width: 100%;
-	height: 1600px;
+	height: 1400px;
 	background-image: url(../img/fondologo2.png);
+	background-position: bottom;
 	background-size: cover;
-
 	padding: 100px;
-
 	z-index: 999;
 }
 .grafica2{
@@ -915,7 +1031,7 @@ margin-left: 5%;
 	display: flex;
 }
 .linea2{
-	height: 3px;
+	height: 2px;
 	width: 55px;
 	background-color: orange;
 }
@@ -923,19 +1039,21 @@ margin-left: 5%;
 	margin-left: 10px;
 	font-weight: 400;
 	color: orange;
+	font-size: 18px;
 }
 .grafica h2{
-	font-size: 42pt;
-	width: 75%;
+	margin-top: 5px;
+	font-size: 38pt;
+	width: 65%;
 	font-weight: 400;
-	line-height: 50pt;
+	line-height: 40pt;
 	color: white;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 }
 .grafica p{
 	color: white;
-	width: 65%;
-	font-size: 18px;
+	width: 60%;
+	font-size: 20px;
 
 }
 .botonlogo{
@@ -947,32 +1065,36 @@ margin-left: 5%;
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
+	padding: 0;
 }
 .botonlogo:hover{
 	background-color: white;
 }
-.botonlogo p{
+.botonlogo .textoboton{
+	text-align: center;
+	width: 100%;
 	color: white;
 	font-size: 12pt;
 	text-transform: uppercase;
 }
-.botonlogo:hover p{
+.botonlogo:hover .textoboton{
 		color: orange;
 }
 .pancake{
 	margin-right: 150px;
-	width: 34%;
-	height: 700px;
+	width: 32%;
+	height: 663px;
 	background-image: url(../img/pancake2.png);
-	background-size: cover;
+	background-size: contain;
+	background-position: top;
 }
-.cabecera3{
-	background-color: none;
-	height: 100px;
-	width: 100%;
-position: fixed;
-z-index: 998;
-top: 0;
+.webilus{
+	margin-right: 100px;
+	width:800px;
+	height: 580px;
+	background-image: url(../img/webdibujo2.png);
+	background-size: cover;
+	background-position: center;
 }
 .textologo{
 	margin: 0 auto;
@@ -981,8 +1103,8 @@ top: 0;
 .textologo h3{
 	color: orange;
 	font-weight: 400;
-	font-size: 24px;
-	margin-top: 150px;
+	font-size: 22px;
+	margin-top:0px;
 	margin-bottom: 30px;
 }
 .textologo p{
@@ -992,14 +1114,13 @@ font-size: 18px;
 font-weight: 400;
 }
 .tarifa{
-
 	position: relative;
 }
 .titulotarifa{
 	text-align: center;
 	font-weight: 300;
 	color: #3d3d3d;
-	font-size:48px;
+	font-size:36px;
 	margin-top: 150px;
 	margin-bottom: 100px;
 }
@@ -1011,47 +1132,47 @@ font-weight: 400;
 	padding:0 150px;
 }
 .iconologo{
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
 	background-image: url(../img/pincel.png);
 	background-size: cover;
 	margin: 0 auto;
 }
 .iconologo2{
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
 	background-image: url(../img/corbata.png);
 	background-size: cover;
 	margin: 0 auto;
 }
 .iconologo3{
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
 	background-image: url(../img/cohete.png);
 	background-size: cover;
 	margin: 0 auto;
 }
 .tarifaslogos h4{
-	font-size: 34px;
+	font-size: 28px;
 	font-weight: 700;
 	color: #3d3d3d;
-		text-align: center;
+	text-align: center;
 }
 .preciologotipo{
-	font-size: 62px;
+	font-size:52px;
 	color: orange;
 	text-align: center;
 font-weight: 500;
 }
 .separadorprecios{
-	height: 1.5px;
+	height: 1.2px;
 	width: 100%;
 	background-color: #3d3d3d;
 	margin-bottom: 30px;
 	margin-top: -5px;
 }
 .tarifaslogos div p {
-	font-size: 20px;
+	font-size: 18px;
 	color: #3d3d3d;
 	line-height: 40px;
 }
@@ -1059,7 +1180,7 @@ font-weight: 500;
 	position: absolute;
 	width: 100%;
 	height: 50px;
-	bottom: 100px;
+	bottom: 150px;
 	border: solid 2px orange;
 	display: flex;
 	justify-content: center;
@@ -1068,6 +1189,7 @@ font-weight: 500;
 }
 .botonprecio p{
 	color: orange!important;
+	font-size: 16px!important;
 }
 .botonprecio:hover{
 	background-color: orange;
@@ -1085,7 +1207,7 @@ font-weight: 500;
 
 }
 .otratarifa div h2{
-	font-size: 42px;
+	font-size: 36px;
 	color: orange;
 	width: 80%;
 	margin: 0 auto;
@@ -1094,11 +1216,10 @@ font-weight: 500;
 	display: flex;
 	flex-wrap: wrap;
 	width: 80%;
-
 }
 .otroplan .tic{
 	color: #67a969;
-	font-size: 24px;
+	font-size: 20px;
 	margin-left: 20px;
 }
 .textotarfi{
@@ -1107,13 +1228,13 @@ font-weight: 500;
 	width:  50%;
 }
 .textotarfi div{
-	font-size: 20px;
+	font-size: 18px;
 	margin-left: 10px;
 }
 .flechasdeco{
 	margin: 30px auto;
-	width: 350px;
-	height: 25px;
+	width: 300px;
+	height: 20px;
 	background-image: url(../img/triangulos.png);
 	background-size: cover;
 }
@@ -1121,50 +1242,54 @@ font-weight: 500;
 .planpersonal{
 	margin-top: 200px;
 	width: 100%;
-	height: 630px;
-	background-image: url(../img/planespecial2.jpg);
+	height: 580px;
+	background-image: url(../img/planespecial3.jpg);
 	background-size: cover;
-	background-position: center;
-	padding:60px 100px;
+	background-position: bottom;
+	padding:80px 100px;
 }
 .planpersonal div h2{
 	width: 50%;
 	font-weight: 800;
 	line-height:62px;
-	font-size: 56px;
+	font-size: 48px;
 	color: #3d3d3d;
 }
 .planpersonal .textopersonal{
 	margin-top: 50px;
 	width: 25%;
-	font-size: 22px;
+	font-size: 18px;
 	color: #3d3d3d;
 }
 .botonpersonal{
-	margin-top: 160px;
-	width: 230px;
-	height: 60px;
-	background-color: #c3494c;
+	margin-top: 140px;
+	width: 200px;
+	height: 50px;
+	background-color: #3d3d3d;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
-
 }
 .botonpersonal p{
 	color: white!important;
 	font-weight: 400;
 	font-size: 18px;
 }
-
+.botonpersonal:hover{
+	background-color: white;
+}
+.botonpersonal:hover p{
+	color: #3d3d3d!important;
+}
 /*++++++++++++++++++CONECTA++++++++++++++++++*/
 .conecta{
 	margin-top: 200px;
 	width: 100%;
-	height: 500px;
-	background-image: url(../img/conecta.png);
+	height: 420px;
+	background-image: url(../img/conecta2.png);
 	background-size: cover;
-	background-position: center;
+	background-position: top;
 	display: flex;
 	justify-content: right;
 	align-items: center;
@@ -1173,16 +1298,16 @@ font-weight: 500;
 .conectatexto{
 	width: 25%;
 	margin-top: 70px;
-	font-size: 18px;
+	font-size: 16px;
 }
 /*++++++++++++++++++CÓMO TRABAJAMOS++++++++++++++++++*/
 .trabajamos{
 	margin-top: 150px;
 	width: 100%;
-	height: 500px;
+	height: 450px;
 	background-position: center;
 	background-size: cover;
-	background-image: url(../img/comotrabajamos2.jpg);
+	background-image: url(../img/comotrabajamos4.jpg);
 }
 /*++++++++++++++++++CONTACTO SERVICIOS++++++++++++++++++*/
 .contactoservicio{
@@ -1193,7 +1318,7 @@ font-weight: 500;
 .contactoservicio h3{
 	font-size: 40px;
 	font-weight: 300;
-	color: orangered;
+	color: orange;
 }
 .contactoservicio h2{
 	margin-bottom: 10px;
@@ -1240,4 +1365,663 @@ font-weight: 500;
 }
 .botonformu:hover p{
 	color: #3d3d3d!important;
+}
+/*+++++++++++++++++CONTACTO+++++++++++++++++++*/
+.fondocontacto{
+	padding-top: 120px;
+}
+.contacto{
+	border-radius: 30px;
+	background-image: url('../img/fondocontacto3.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 80%;
+	height: 860px;
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 49px 100px;
+	box-shadow: 8px 8px 22px 5px rgba(0, 0, 0, .8);
+}
+.fotocontacto {
+	width: 45%;
+	height: 100%;
+	background-image: url(../img/contacto/5.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: 0 3px;
+}
+.infocontacto{
+	width: 55%;
+	height: 100%;
+	margin: 0 3px;
+	padding:50px 60px;
+}
+.infocontacto h2{
+	text-transform: uppercase;
+	font-size: 36px;
+	color: white;
+}
+.infocontacto h2 b{
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 36px;
+	color: orange;
+}
+.linea3{
+	height: 8px;
+	width: 100px;
+}
+.formcontact{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin-top: 30px;
+
+}
+.formcontact input{
+	vertical-align: super;
+	margin: 10px 0;
+	height: 50px;
+	color: white;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, .15);
+	border: none;
+}
+.formcontact .textocontac{
+	height: 200px;
+}
+.formcontact .botoncontact{
+	margin-top: 30px;
+width: 180px;
+height: 60px;
+border: 2px solid orange;
+background-color: orange;
+color: white;
+font-weight: 500;
+font-size: 14px;
+cursor: pointer;
+}
+.formcontact .botoncontact:hover{
+	margin-top: 30px;
+width: 180px;
+height: 60px;
+border: 2px solid white;
+background-color: white;
+color: orange;
+font-weight: 500;
+font-size: 14px;
+cursor: pointer;
+}
+.iconologoweb{
+	width: 80px;
+	height: 80px;
+	background-image: url(../img/ordenador.gif);
+	background-size: cover;
+	margin: 0 auto;
+}
+.iconologo2{
+	width: 80px;
+	height: 80px;
+	background-image: url(../img/corbata.png);
+	background-size: cover;
+	margin: 0 auto;
+}
+.iconologoweb3{
+	width: 80px;
+	height: 80px;
+	background-image: url(../img/tienda.png);
+	background-size: cover;
+	margin: 0 auto;
+}
+.planpersonalweb{
+	margin-top: 100px;
+	width: 100%;
+	height: 580px;
+	background-image: url(../img/planweb.png);
+	background-size: cover;
+	background-position: bottom;
+	padding:80px 100px;
+}
+.planpersonalweb div h2{
+	width: 50%;
+	font-weight: 800;
+	line-height:62px;
+	font-size: 48px;
+	color: #3d3d3d;
+}
+.planpersonalweb .textopersonal{
+	margin-top: 50px;
+	width: 45%;
+	font-size: 18px;
+	color: #3d3d3d;
+}
+.otratarifaweb{
+	width: 100%;
+	text-align: center;
+	background-color: rgba(0, 0, 0, .06);
+	padding: 15px;
+}
+.otratarifaweb h2{
+	color: orange;
+	margin-bottom: 20px;
+}
+.otratarifaweb p{
+	color: #3d3d3d;
+	width: 50%;
+	margin: 0 auto;
+}
+.ventajasweb {
+	width: 70%;
+	margin: 130px auto 0px auto;
+}
+.ventajasweb .ventajaicon{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+
+}
+.ventajasweb h2{
+	text-align: center;
+	margin-bottom: 60px;
+	font-weight: 400;
+	font-size: 34px;
+	color: #3d3d3d;
+}
+.venta{
+	height: 100px;
+	width: 100px;
+	background-size: cover;
+
+}
+.ventaja1{
+	margin: 0 auto;
+	background-image: url('../img/icoMovil.png');
+	margin-bottom: 30px;
+}
+.ventaja2{
+	margin: 0 auto;
+	background-image: url('../img/icoPC.png');
+	margin-bottom: 30px;
+}
+
+.ventaja3{
+	margin: 0 auto;
+	background-image: url('../img/icoRueda.png');
+	margin-bottom: 30px;
+}
+.ventajatext p{
+	width: 300px;
+	text-align: center;
+	font-weight: 400;
+	font-size: 16px;
+}
+.carteilus{
+	margin-right: 140px;
+	width:500px;
+	height: 600px;
+	background-image: url(../img/cartel.png);
+	background-size: cover;
+	background-position: center;
+}
+
+/*++++++++++++++++++CARTELERIA+++++++++++++++++++++*/
+.carlogo{
+		width: 80px;
+	height: 80px;
+	background-size: cover;
+	margin: 0 auto;
+}
+.iconologocar{
+	background-image: url('../img/flyer.png');
+}
+.iconologocar2{
+	background-image: url('../img/triptico.png');
+}
+.iconologocar3{
+	background-image: url('../img/poster.png');
+}
+.iconologocar4{
+	background-image: url('../img/tarjetanegocio.png');
+}
+.iconologocar5{
+	background-image: url('../img/catalogoico.png');
+}
+.iconologocar6{
+	background-image: url('../img/invita.png');
+}
+.textotarifa{
+	margin-top: 20px;
+	width: 330px;
+	line-height: 32px!important;
+ 	text-align:justify;
+    word-break: break-all;
+}
+.tarifaslogos2{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: space-around;
+	padding:0 150px;
+}
+.botonprecio2{
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	bottom: 50px;
+	border: solid 2px orange;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.botonprecio2 p{
+	color: orange!important;
+	font-size: 16px!important;
+}
+.botonprecio2:hover{
+	background-color: orange;
+}
+.botonprecio2:hover p{
+		color: white!important;
+}
+.planpersonalCar{
+	margin-top: 100px;
+	width: 100%;
+	height: 580px;
+	background-image: url(../img/why.png);
+	background-size: cover;
+	background-position: bottom;
+	padding:80px 100px;
+}
+.planpersonalCar div h2{
+	width: 50%;
+	font-weight: 800;
+	line-height:62px;
+	font-size: 48px;
+	color: #3d3d3d;
+}
+.planpersonalCar .textopersonal{
+	margin-top: 50px;
+	width: 45%;
+	font-size: 18px;
+	color: #3d3d3d;
+}
+.botonpersonalcar{
+	margin-top: 180px;
+	width: 200px;
+	height: 50px;
+	background-color: #3d3d3d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.botonpersonalcar p{
+	color: white!important;
+	font-weight: 400;
+	font-size: 18px;
+}
+.botonpersonalcar:hover{
+	background-color: white;
+}
+.botonpersonalcar:hover p{
+	color: #3d3d3d!important;
+}
+
+/*++++++++++++++++++ MULTIMEDIA WEB +++++++++++++++++*/
+
+.twitchilus{
+	margin-right: 100px;
+	width:800px;
+	height: 700px;
+	background-image: url(../img/redes2.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.iconologoyoutube{
+	background-image: url(../img/youtubeico.png);
+}
+.iconologotwitch{
+	background-image: url(../img/twitchico.png);
+}
+.iconologosocial{
+	background-image: url(../img/likeico.png);
+}
+.logorrss h4{
+	margin-bottom: 20px;
+}
+.logorrss div p {
+	line-height: 30px!important;
+}
+.tarifaslogos3{
+	width: 100%;
+	height: 560px;
+	display: flex;
+	justify-content: space-around;
+	padding:0 150px;
+}
+.planpersonalredes{
+	margin-top: 100px;
+	width: 100%;
+	height: 780px;
+	background-image: url(../img/redes3.png);
+	background-size: cover;
+	background-position: bottom;
+	padding:80px 100px;
+}
+.planpersonalredes div{
+	margin-top: 80px;
+}
+.planpersonalredes div h2{
+	width: 50%;
+	font-weight: 800;
+	line-height:62px;
+	font-size: 48px;
+	color: #3d3d3d;
+}
+.planpersonalredes .textopersonal{
+	margin-top: 50px;
+	width: 35%;
+	font-size: 18px;
+	color: #3d3d3d;
+}
+.planpersonalredes .textopersonal2{
+
+	width: 35%;
+	font-size: 18px;
+	color: #3d3d3d;
+}
+.botonpersonalredes{
+	margin-top: 220px!important;
+	width: 200px;
+	height: 50px;
+	background-color: #3d3d3d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.botonpersonalredes p{
+	color: white!important;
+	font-weight: 400;
+	font-size: 18px;
+}
+.botonpersonalredes:hover{
+	background-color: white;
+}
+.botonpersonalredes:hover p{
+	color: #3d3d3d!important;
+}
+.bloquestream{
+	margin-left: 70%;
+	width: 30%;
+}
+.planpersonalredes2{
+	margin-top: 100px;
+	width: 100%;
+	height: 780px;
+	background-image: url(../img/stream.png);
+	background-size: cover;
+	background-position: bottom;
+	padding:80px 100px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.planpersonalredes2 div h2{
+	width: 100%;
+	font-weight: 800;
+	line-height:62px;
+	font-size: 48px;
+	color: #3d3d3d;
+}
+.planpersonalredes2 .textopersonal{
+	margin-top: 50px;
+	width: 100%;
+	font-size: 18px;
+	color: #3d3d3d;
+}
+.planpersonalredes2 .textopersonal2{
+	margin-top: 70px;
+	width: 100%;
+	font-size: 18px;
+	color: #3d3d3d;
+}
+.otratarifaredes{
+	width: 100%;
+	text-align: center;
+	background-color: rgba(0, 0, 0, .06);
+	padding: 15px;
+}
+.otratarifaredes h2{
+	color: orange;
+	margin-bottom: 20px;
+}
+.otratarifaredes p{
+	color: #3d3d3d;
+	width: 50%;
+	margin: 0 auto;
+}
+/*+++++++++++++++++++++++ BRANDING ++++++++++++++++++*/
+.brandilus{
+	margin-right: 100px;
+	width:800px;
+	height: 700px;
+	background-image: url(../img/branding.png);
+	background-size: cover;
+	background-position: center;
+}
+.iconologoman{
+	width: 80px;
+	height: 80px;
+	background-image: url(../img/manual1.png);
+	background-size: cover;
+	margin: 0 auto;
+}
+.iconologoman2{
+	width: 80px;
+	height: 80px;
+	background-image: url(../img/manual2.png);
+	background-size: cover;
+	margin: 0 auto;
+}
+.tarifaslogosmar{
+	width: 100%;
+	height: 800px;
+	display: flex;
+	justify-content: space-around;
+	padding:0 300px;
+}
+.planpersonalmar{
+	margin-top: 200px;
+	width: 100%;
+	height: 580px;
+	background-image: url(../img/brand.png);
+	background-size: cover;
+	background-position: bottom;
+	padding:80px 100px;
+}
+.planpersonalmar div h2{
+	width: 50%;
+	font-weight: 800;
+	line-height:62px;
+	font-size: 48px;
+	color: #3d3d3d;
+}
+.planpersonalmar .textopersonal{
+	margin-top: 50px;
+	width: 25%;
+	font-size: 18px;
+	color: #3d3d3d;
+}
+.botonpersonalmar{
+	margin-top: 140px;
+	width: 200px;
+	height: 50px;
+	background-color: #3d3d3d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.botonpersonalmar p{
+	color: white!important;
+	font-weight: 400;
+	font-size: 18px;
+}
+.botonpersonalmar:hover{
+	background-color: white;
+}
+.botonpersonalmar:hover p{
+	color: #3d3d3d!important;
+}
+.datos{
+	cursor: auto  !important;
+}
+.datospag{
+	text-decoration: none;
+	color: white;
+}
+
+/*++++++++++++++++++VERSIÓN MÓVIL++++++++++++++++++++++++++*/
+@media (max-width:450px){
+/*+++++++++++++++++++ CABECERA ++++++++++++++++++++++++++++*/
+header {
+width: 100%;
+height: 60px;
+position: fixed;
+z-index: 998;
+}
+#logo{
+	width: 190px;
+	left: 5%;
+	top:30px;
+	position: fixed;
+	z-index: 999;
+	cursor: pointer;
+}
+/*++++++++++++++++++++ HAMBURGUESA +++++++++++++++++++++++++*/
+nav {
+	position: fixed;
+	top: 30px;
+	right: 10px;
+	z-index: 2;
+	cursor: pointer;
+}
+.menu{
+	position: fixed;
+	right: 20px;
+	color: white;
+	top: 70px;
+	z-index: 3;
+	font-weight: 200;
+}
+.check{
+	width: 55px;
+	height: 55px;
+	position: absolute;
+	top:0px;
+	left: 0px;
+	z-index: 2;
+	opacity: 0;
+		cursor: pointer;
+}
+#burguer{
+	width: 50px;
+	height: 50px;
+	padding-top: 5px;
+	top:0px;
+	left:0px;
+	position: relative;
+}
+/*+++++++++++++++++Bloque++++++++++++++++++++++++++++*/
+.bloqueColor1{
+	background-color: transparent;
+
+}
+.bloquecolor2{
+background-color: #3e3e3d;
+	width: 25%;
+	height: 100vh;
+	position: fixed;
+	right: -25%;
+	top: 0;
+	transition: 1.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 887;
+}
+.fondo{
+	width: 100%;
+	height: 100vh;
+	background-image: url('../img/globito2.jpg');
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.weare{
+opacity: 0;
+
+}
+.menuabierto{
+	right: 0;
+	width: 100%;
+	transition: 1.5s;
+	
+}
+.menuabierto2{
+	right: 0;
+	width: 100%;
+	transition: 1.5s;
+}
+.weareabierto{
+	display: none;
+}
+.cajanav{
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+.navegador{
+	width: 100%;
+	height: 300px;
+display: flex;
+flex-direction: column;
+
+}
+.linea1{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		opacity: 0;
+}
+.navegador li{
+	width: 100%;
+	text-align: center;
+	font-size: 24pt;
+	font-weight: 200;
+	margin-bottom: 50px;
+transition: 1.5s;
+}
+.navegador li a{
+	text-decoration: none;
+	color: white;
+}
+.navegador li a:hover{
+	color:orange;
+}
+.navegadorAbierto{
+	opacity: 1;
+	transition: 1.5s;
+}
+
 }
