@@ -2522,6 +2522,113 @@ footer ul li{
 	width: 70%;
 	text-align: center;
 }
+/*++++++++++++SERVICIOS++++++++++++++++++++++++++++++++++*/
 
+.servicios{
+	width: 100%;
+	height: 890px;
+	margin: 60px 0px;
+	display: flex;
+	flex-direction: column;
+}
+.ser1{
+	width: 100%;
+	height: 200px;
+	display: block;
+}
+.serlogo, .bloq2{
+	margin: 0px;
+	width: 100%;
+}
+.bloq2{
+	display: flex;
+	flex-direction: column;
+
+	height: 400px;
+}
+.serlogo{
+	background-image: url('../img/serlog.jpg');
+	background-size: cover;
+	background-position: center;
+
+}
+.serweb{
+	width: 100%;
+	height: 200px;
+	background-image: url('../img/serweb.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.sercarteleria{
+	width: 100%;
+	height: 200px;
+	background-image: url('../img/sercar.jpg');
+	background-size: cover;
+}
+.ser2{
+	width: 100%;
+	height: 400px;
+	display: block;
+	margin-top: 390px;
+}
+.sermultimedia{
+	width: 100%;
+	height: 200px;
+	background-image: url('../img/sermul.jpg');
+	background-size: cover;
+	background-position: center;
+	margin: 0px;
+}
+.serbranding{
+	width: 100%;
+	height: 200px;
+	background-image: url('../img/serbran.jpg');
+	background-size: cover;
+	background-position: center;
+	margin: 0px;
+}
+.serlogo h3{
+padding-top: 68%;
+margin-left: 5%;
+	color: white;
+}
+.bloq2 h3{
+	padding-top: 30%;
+	margin-left: 5%;
+	color: white;
+}
+.ser2 h3{
+	padding-top: 34%;
+	margin-left: 5%;
+	color: white;
+}
+.cuadronegro{
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+}
+.cuadronegro:hover{
+	background-color: rgba(0, 0, 0, .7);
+
+}
+.serlogo:hover{
+	background-size: 110%;
+}
+.serweb:hover{
+	background-size: 110%;
+}
+.sercarteleria:hover{
+	background-size: 110%;
+}
+.sermultimedia:hover{
+	background-size: 110%;
+}
+.serbranding:hover{
+	background-size: 110%;
+}
+.foter{
+	margin-top: 100px;
+
+}
 
 }
