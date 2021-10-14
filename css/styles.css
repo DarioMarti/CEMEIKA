@@ -2588,17 +2588,20 @@ footer ul li{
 	margin: 0px;
 }
 .serlogo h3{
-padding-top: 68%;
+	text-align: center;
+padding-top: 30%;
 margin-left: 5%;
 	color: white;
 }
 .bloq2 h3{
+	text-align: center;
 	padding-top: 30%;
 	margin-left: 5%;
 	color: white;
 }
 .ser2 h3{
-	padding-top: 34%;
+	text-align: center;
+	padding-top: 30%;
 	margin-left: 5%;
 	color: white;
 }
