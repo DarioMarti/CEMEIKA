@@ -2635,5 +2635,160 @@ margin-left: 5%;
 	margin-top: 100px;
 
 }
+/*++++++++++++++BLOG+++++++++++++++++++++++*/
+
+.blog{
+	width: 95%;
+	margin:100px auto 0px auto;
+	display: flex;
+	flex-direction: column;
+}
+.seccion1{
+	width: 100%;
+	height: 2000px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.seccion2{
+	margin: 0 auto;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.imagengrande{
+	width: 100%;
+	height: 400px;
+	background-image: url('../img/blog/blog1.jpg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	cursor: pointer;
+}
+.imagenpequeña{
+	width: 100%;
+	height: 1600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+.imagenizq{
+	height: 800px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+.imagender{
+	height: 800px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	cursor: pointer;
+}
+.bloquegrande1{
+	width: 100%;
+	height: 400px;
+	background-color: violet;
+	position: relative;
+			background-image: url('../img/blog/blog4.jpg');
+	background-size: cover;
+	background-position: center;
+cursor: pointer;
+}
+.bloquegrande2{
+	width: 100%;
+	height: 400px;
+	background-color: violet;
+	position: relative;
+			background-image: url('../img/blog/blog5.jpg');
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+}
+.bloquepeque1{
+	width: 100%;
+	height: 400px;
+	position: relative;
+		background-image: url('../img/blog/blog2.jpg');
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+}
+.bloquepeque2{
+	width: 100%;
+	height: 400px;
+	position: relative;
+		background-image: url('../img/blog/blog3.jpg');
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+}
+.bloqueblog{
+	width:  100%;
+	height: 400px;
+	background-color: black;
+	margin-top: 10px;
+	position: relative;
+}
+.bloqueblog1{
+		background-image: url('../img/blog/blog6.jpg');
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+}
+.bloqueblog2{
+		background-image: url('../img/blog/blog7.jpg');
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+}
+.bloqueblog3{
+		background-image: url('../img/blog/blog3.jpg');
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+}
+.bloqueblog4{
+		background-image: url('../img/blog/blog8.jpg');
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+}
+.bloqueblog5{
+		background-image: url('../img/blog/blog9.jpg');
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+}
+.bloqueblog6{
+		background-image: url('../img/blog/blog10.jpg');
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+}
+.logo2{
+	width: 120px;
+	top: 15px;
+	left: 5%;
+	position: fixed;
+	z-index: 999;
+}
+.cabecera2{
+	height: 60px;
+
+}
+.burguer{
+
+	top: -15px !important;
+}
+.check{
+	top: -20px !important;
+}
+
 
 }
