@@ -2897,6 +2897,7 @@ font-weight: 400;
 	height: 660px;
 	width: 100%;
 	padding: 0px;
+
 }
 
 .tarifa2{position: relative;
@@ -2924,6 +2925,7 @@ width: 100%;}
 	flex-direction: column;
 	justify-content: flex-start;
 	padding:0px;
+
 	text-align: center;
 }
 .iconologo{
@@ -2973,7 +2975,7 @@ font-weight: 500;
 }
 .botonprecio{
 	position: absolute;
-	width: 100%;
+	width: 80%;
 	height: 50px;
 	bottom: 50px;
 	border: solid 2px orange;
@@ -2981,6 +2983,7 @@ font-weight: 500;
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
+	left: 30px;
 }
 .botonprecio p{
 	color: orange!important;
