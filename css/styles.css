@@ -2793,28 +2793,29 @@ cursor: pointer;
 .grafica{
 	margin-top: 50px;
 	width: 100%;
-	height: 1400px;
+	height: 1000px;
 	background-image: url(../img/fondologo2.png);
 	background-position: bottom;
 	background-size: cover;
-	padding: 100px;
+	padding: 20px;
 	z-index: 999;
 }
 .grafica2{
-	display: flex;
+	display: block;
 	justify-content: space-between;
 }
 .textosgraficalogo{
-	width: 50%;
-	height: 800px;
+	width: 100%;
+	height: 500px;
 }
 .subtextos{
+	width: 100%;
 	display: flex;
+	justify-content: flex-start;
+	padding: 0px;
 }
 .linea2{
-	height: 2px;
-	width: 55px;
-	background-color: orange;
+	display: none;
 }
 .textosgraficalogo h3{
 	margin-left: 10px;
@@ -2823,17 +2824,17 @@ cursor: pointer;
 	font-size: 18px;
 }
 .grafica h2{
-	margin-top: 5px;
-	font-size: 38pt;
-	width: 65%;
+	margin-top: 10px;
+	font-size: 28pt;
+	width: 105%;
 	font-weight: 400;
-	line-height: 40pt;
+	line-height: 34pt;
 	color: white;
 	margin-bottom: 40px;
 }
 .grafica p{
 	color: white;
-	width: 60%;
+	width: 100%;
 	font-size: 20px;
 
 }
@@ -2862,12 +2863,12 @@ cursor: pointer;
 		color: orange;
 }
 .pancake{
-	margin-right: 150px;
-	width: 32%;
-	height: 663px;
+	width: 62%;
+	height: 363px;
 	background-image: url(../img/pancake2.png);
-	background-size: contain;
+	background-size: cover;
 	background-position: top;
+	display: none;
 }
 .webilus{
 	margin-right: 100px;
@@ -2880,6 +2881,7 @@ cursor: pointer;
 .textologo{
 	margin: 0 auto;
 	text-align: center;
+	margin-top: 40px;
 }
 .textologo h3{
 	color: orange;
@@ -2896,20 +2898,28 @@ font-weight: 400;
 }
 .tarifa{
 	position: relative;
+	height: 770px;
+}
+.tarifa2{
+	position: relative;
+	height: 940px;
+}
+.tarifa3{
+	position: relative;
+	height: 1050px;
 }
 .titulotarifa{
 	text-align: center;
 	font-weight: 300;
 	color: #3d3d3d;
 	font-size:36px;
-	margin-top: 150px;
+	margin-top: 100px;
 	margin-bottom: 100px;
 }
 .tarifaslogos{
 	width: 100%;
 	height: 800px;
-	display: flex;
-	justify-content: space-around;
+	display: block;
 	padding:0 150px;
 }
 .iconologo{
@@ -2956,12 +2966,13 @@ font-weight: 500;
 	font-size: 18px;
 	color: #3d3d3d;
 	line-height: 40px;
+	text-align: center;
 }
 .botonprecio{
 	position: absolute;
 	width: 100%;
 	height: 50px;
-	bottom: 150px;
+	bottom: 60px;
 	border: solid 2px orange;
 	display: flex;
 	justify-content: center;
@@ -2977,7 +2988,482 @@ font-weight: 500;
 }
 .botonprecio:hover p{
 		color: white!important;
+}
+/*+++++++++++++++OTRA TARIFA++++++++++++++*/
+.otratarifa{
+	width: 100%;
+	margin: 20px auto;
+	display: block;
+	position: relative;
+	top: 2000px;
 
 }
+.otratarifa div h2{
+	font-size: 36px;
+	color: orange;
+	width: 100%;
+	margin: 0 auto;
+	line-height: 44px;
+	padding: 20px;
+}
+.otroplan{
+	display: block;
+	width: 100%;
+	margin-top: 20px;
+}
+.otroplan .tic{
+	color: #67a969;
+	font-size: 20px;
+	margin-left: 20px;
+}
+.textotarfi{
+	display: flex;
+	align-items: center;
 
+	margin: 5px 0;
+	width:  50%;
+}
+.textotarfi div{
+	font-size: 18px;
+	margin-left: 10px;
+}
+.flechasdeco{
+	position: absolute;
+	top: 4570px;
+	margin: 30px auto;
+	width: 300px;
+	height: 20px;
+	background-image: url(../img/triangulos.png);
+	background-size: cover;
+}
+/*+++++++++++++++++PLAN PERSONAL++++++++++++++++++++*/
+.planpersonal{
+	margin-top: 200px;
+	width: 100%;
+	height: 580px;
+	background-image: url(../img/planespecial3.jpg);
+	background-size: cover;
+	background-position: bottom;
+	padding:80px 100px;
+}
+.planpersonal div h2{
+	width: 50%;
+	font-weight: 800;
+	line-height:62px;
+	font-size: 48px;
+	color: #3d3d3d;
+}
+.planpersonal .textopersonal{
+	margin-top: 50px;
+	width: 25%;
+	font-size: 18px;
+	color: #3d3d3d;
+}
+.botonpersonal{
+	margin-top: 140px;
+	width: 200px;
+	height: 50px;
+	background-color: #3d3d3d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.botonpersonal p{
+	color: white!important;
+	font-weight: 400;
+	font-size: 18px;
+}
+.botonpersonal:hover{
+	background-color: white;
+}
+.botonpersonal:hover p{
+	color: #3d3d3d!important;
+}
+/*++++++++++++++++++CONECTA++++++++++++++++++*/
+.conecta{
+	margin-top: 200px;
+	width: 100%;
+	height: 420px;
+	background-image: url(../img/conecta2.png);
+	background-size: cover;
+	background-position: top;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	padding: 0 100px;
+}
+.conectatexto{
+	width: 25%;
+	margin-top: 70px;
+	font-size: 16px;
+}
+/*++++++++++++++++++CÓMO TRABAJAMOS++++++++++++++++++*/
+.trabajamos{
+	margin-top: 150px;
+	width: 100%;
+	height: 450px;
+	background-position: center;
+	background-size: cover;
+	background-image: url(../img/comotrabajamos4.jpg);
+}
+/*++++++++++++++++++CONTACTO SERVICIOS++++++++++++++++++*/
+.contactoservicio{
+	margin: 150px auto;
+	width: 45%;
+	text-align: center;
+}
+.contactoservicio h3{
+	font-size: 40px;
+	font-weight: 300;
+	color: orange;
+}
+.contactoservicio h2{
+	margin-bottom: 10px;
+	font-size: 46px;
+	color: #3d3d3d;
+}
+.contactoservicio p{
+	width: 90%;
+	margin: 0 auto;
+	font-size: 20px;
+	color: #3d3d3d;
+}
+.formularioservicio{
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+}
+.formularioservicio input{
+	border: 2px solid grey;
+	width: 100%;
+	margin: 5px 0;
+	padding: 10px 20px;
+}
+.mensajeser{
+	height: 150px;
+}
+.botonformu{
+	margin-top: 30px;
+	width: 200px;
+	height: 60px;
+	background-color: #3d3d3d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.botonformu p{
+	color: white!important;
+}
+.botonformu:hover{
+	border: 2px solid #3d3d3d;
+	background-color: transparent;
+
+}
+.botonformu:hover p{
+	color: #3d3d3d!important;
+}
+/*+++++++++++++++++CONTACTO+++++++++++++++++++*/
+.fondocontacto{
+	padding-top: 120px;
+}
+.contacto{
+	border-radius: 30px;
+	background-image: url('../img/fondocontacto3.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 80%;
+	height: 860px;
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 49px 100px;
+	box-shadow: 8px 8px 22px 5px rgba(0, 0, 0, .8);
+}
+.fotocontacto {
+	width: 45%;
+	height: 100%;
+	background-image: url(../img/contacto/5.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: 0 3px;
+}
+.infocontacto{
+	width: 55%;
+	height: 100%;
+	margin: 0 3px;
+	padding:50px 60px;
+}
+.infocontacto h2{
+	text-transform: uppercase;
+	font-size: 36px;
+	color: white;
+}
+.infocontacto h2 b{
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 36px;
+	color: orange;
+}
+.linea3{
+	height: 8px;
+	width: 100px;
+}
+.formcontact{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin-top: 30px;
+
+}
+.formcontact input{
+	vertical-align: super;
+	margin: 10px 0;
+	height: 50px;
+	color: white;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, .15);
+	border: none;
+}
+.formcontact .textocontac{
+	height: 200px;
+}
+.formcontact .botoncontact{
+	margin-top: 30px;
+width: 180px;
+height: 60px;
+border: 2px solid orange;
+background-color: orange;
+color: white;
+font-weight: 500;
+font-size: 14px;
+cursor: pointer;
+}
+.formcontact .botoncontact:hover{
+	margin-top: 30px;
+width: 180px;
+height: 60px;
+border: 2px solid white;
+background-color: white;
+color: orange;
+font-weight: 500;
+font-size: 14px;
+cursor: pointer;
+}
+.iconologoweb{
+	width: 80px;
+	height: 80px;
+	background-image: url(../img/ordenador.gif);
+	background-size: cover;
+	margin: 0 auto;
+}
+.iconologo2{
+	width: 80px;
+	height: 80px;
+	background-image: url(../img/corbata.png);
+	background-size: cover;
+	margin: 0 auto;
+}
+.iconologoweb3{
+	width: 80px;
+	height: 80px;
+	background-image: url(../img/tienda.png);
+	background-size: cover;
+	margin: 0 auto;
+}
+.planpersonalweb{
+	margin-top: 100px;
+	width: 100%;
+	height: 580px;
+	background-image: url(../img/planweb.png);
+	background-size: cover;
+	background-position: bottom;
+	padding:80px 100px;
+}
+.planpersonalweb div h2{
+	width: 50%;
+	font-weight: 800;
+	line-height:62px;
+	font-size: 48px;
+	color: #3d3d3d;
+}
+.planpersonalweb .textopersonal{
+	margin-top: 50px;
+	width: 45%;
+	font-size: 18px;
+	color: #3d3d3d;
+}
+.otratarifaweb{
+	width: 100%;
+	text-align: center;
+	background-color: rgba(0, 0, 0, .06);
+	padding: 15px;
+}
+.otratarifaweb h2{
+	color: orange;
+	margin-bottom: 20px;
+}
+.otratarifaweb p{
+	color: #3d3d3d;
+	width: 50%;
+	margin: 0 auto;
+}
+.ventajasweb {
+	width: 70%;
+	margin: 130px auto 0px auto;
+}
+.ventajasweb .ventajaicon{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+
+}
+.ventajasweb h2{
+	text-align: center;
+	margin-bottom: 60px;
+	font-weight: 400;
+	font-size: 34px;
+	color: #3d3d3d;
+}
+.venta{
+	height: 100px;
+	width: 100px;
+	background-size: cover;
+
+}
+.ventaja1{
+	margin: 0 auto;
+	background-image: url('../img/icoMovil.png');
+	margin-bottom: 30px;
+}
+.ventaja2{
+	margin: 0 auto;
+	background-image: url('../img/icoPC.png');
+	margin-bottom: 30px;
+}
+
+.ventaja3{
+	margin: 0 auto;
+	background-image: url('../img/icoRueda.png');
+	margin-bottom: 30px;
+}
+.ventajatext p{
+	width: 300px;
+	text-align: center;
+	font-weight: 400;
+	font-size: 16px;
+}
+.carteilus{
+	margin-right: 140px;
+	width:500px;
+	height: 600px;
+	background-image: url(../img/cartel.png);
+	background-size: cover;
+	background-position: center;
+}
+
+/*++++++++++++++++++CARTELERIA+++++++++++++++++++++*/
+.carlogo{
+		width: 80px;
+	height: 80px;
+	background-size: cover;
+	margin: 0 auto;
+}
+.iconologocar{
+	background-image: url('../img/flyer.png');
+}
+.iconologocar2{
+	background-image: url('../img/triptico.png');
+}
+.iconologocar3{
+	background-image: url('../img/poster.png');
+}
+.iconologocar4{
+	background-image: url('../img/tarjetanegocio.png');
+}
+.iconologocar5{
+	background-image: url('../img/catalogoico.png');
+}
+.iconologocar6{
+	background-image: url('../img/invita.png');
+}
+.textotarifa{
+	margin-top: 20px;
+	width: 330px;
+	line-height: 32px!important;
+ 	text-align:justify;
+    word-break: break-all;
+}
+.tarifaslogos2{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: space-around;
+	padding:0 150px;
+}
+.botonprecio2{
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	bottom: 50px;
+	border: solid 2px orange;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.botonprecio2 p{
+	color: orange!important;
+	font-size: 16px!important;
+}
+.botonprecio2:hover{
+	background-color: orange;
+}
+.botonprecio2:hover p{
+		color: white!important;
+}
+.planpersonalCar{
+	margin-top: 100px;
+	width: 100%;
+	height: 580px;
+	background-image: url(../img/why.png);
+	background-size: cover;
+	background-position: bottom;
+	padding:80px 100px;
+}
+.planpersonalCar div h2{
+	width: 50%;
+	font-weight: 800;
+	line-height:62px;
+	font-size: 48px;
+	color: #3d3d3d;
+}
+.planpersonalCar .textopersonal{
+	margin-top: 50px;
+	width: 45%;
+	font-size: 18px;
+	color: #3d3d3d;
+}
+.botonpersonalcar{
+	margin-top: 180px;
+	width: 200px;
+	height: 50px;
+	background-color: #3d3d3d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.botonpersonalcar p{
+	color: white!important;
+	font-weight: 400;
+	font-size: 18px;
+}
+.botonpersonalcar:hover{
+	background-color: white;
+}
+.botonpersonalcar:hover p{
+	color: #3d3d3d!important;
+}
 }
