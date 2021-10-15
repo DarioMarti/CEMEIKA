@@ -3006,11 +3006,12 @@ font-weight: 500;
 
 }
 .otratarifa div h2{
-	font-size: 36px;
+	font-size: 34px;
 	color: orange;
 	width: 100%;
 	margin: 0 auto;
-	line-height: 44px;
+	line-height: 42px;
+	padding: 0 20px;
 }
 .otroplan{
 	display: flex;
