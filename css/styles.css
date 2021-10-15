@@ -2871,12 +2871,7 @@ cursor: pointer;
 	display: none;
 }
 .webilus{
-	margin-right: 100px;
-	width:800px;
-	height: 580px;
-	background-image: url(../img/webdibujo2.png);
-	background-size: cover;
-	background-position: center;
+	display: none;
 }
 .textologo{
 	margin: 0 auto;
@@ -3119,6 +3114,9 @@ display: none;
 	width: 100%;
 	text-align: center;
 }
+.contactoservicioweb{
+	margin: 50px auto 100px auto;
+}
 .contactoservicio h3{
 	font-size: 40px;
 	font-weight: 300;
@@ -3279,26 +3277,28 @@ cursor: pointer;
 	margin: 0 auto;
 }
 .planpersonalweb{
-	margin-top: 100px;
+	margin-top: 40px;
 	width: 100%;
-	height: 580px;
-	background-image: url(../img/planweb.png);
+	height: 280px;
+	background-image: url(../img/planwebmovil.png);
 	background-size: cover;
-	background-position: bottom;
-	padding:80px 100px;
+	background-position: top;
+	padding:20px;
 }
 .planpersonalweb div h2{
-	width: 50%;
+	width: 100%;
 	font-weight: 800;
-	line-height:62px;
-	font-size: 48px;
+	line-height:42px;
+	font-size: 32px;
 	color: #3d3d3d;
+	margin-top: 320px;
 }
 .planpersonalweb .textopersonal{
 	margin-top: 50px;
-	width: 45%;
+	width:100%;
 	font-size: 18px;
 	color: #3d3d3d;
+
 }
 .otratarifaweb{
 	width: 100%;
@@ -3312,18 +3312,21 @@ cursor: pointer;
 }
 .otratarifaweb p{
 	color: #3d3d3d;
-	width: 50%;
+	width: 100%;
+	font-size: 18px;
 	margin: 0 auto;
 }
 .ventajasweb {
-	width: 70%;
-	margin: 130px auto 0px auto;
+	width: 100%;
+	margin: 830px auto 0px auto;
+
+
 }
 .ventajasweb .ventajaicon{
 	display: flex;
-	justify-content: space-around;
+	flex-direction: column;
+	justify-content: center;
 	width: 100%;
-
 }
 .ventajasweb h2{
 	text-align: center;
@@ -3355,8 +3358,8 @@ cursor: pointer;
 	margin-bottom: 30px;
 }
 .ventajatext p{
-	width: 300px;
-	text-align: center;
+	width: 100%;
+
 	font-weight: 400;
 	font-size: 16px;
 }
