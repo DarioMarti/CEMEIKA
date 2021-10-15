@@ -3483,4 +3483,219 @@ cursor: pointer;
 .contactoserviciocar{
 	padding-top: 100px;
 }
+/*++++++++++++++++++ MULTIMEDIA WEB +++++++++++++++++*/
+
+.twitchilus{
+	display: none;
+}
+
+.iconologoyoutube{
+	background-image: url(../img/youtubeico.png);
+}
+.iconologotwitch{
+	background-image: url(../img/twitchico.png);
+}
+.iconologosocial{
+	background-image: url(../img/likeico.png);
+}
+.logorrss h4{
+	margin-bottom: 20px;
+}
+.logorrss div p {
+	line-height: 30px!important;
+}
+.tarifarrss{
+	height: 450px!important;
+}
+.tarifaslogos3{
+	width: 100%;
+	height: 560px;
+	display: block;
+	padding:20px;
+}
+.planpersonalredes{
+	margin-top: 100px;
+	width: 100%;
+	height: 250px;
+	background-image: url(../img/redes3.png);
+	background-size: cover;
+	background-position: bottom;
+	padding:20px;
+}
+.planpersonalredes div{
+	margin-top: 270px;
+}
+.planpersonalredes div h2{
+	width: 100%;
+	font-weight: 800;
+	line-height:52px;
+	font-size: 38px;
+	color: #3d3d3d;
+}
+.planpersonalredes .textopersonal{
+	margin-top: 50px;
+	width: 100%;
+	font-size: 18px;
+	color: #3d3d3d;
+}
+.planpersonalredes .textopersonal2{
+	width: 100%;
+	font-size: 18px;
+	color: #3d3d3d;
+}
+.botonpersonalredes{
+	margin-top: 60px!important;
+	width: 200px;
+	height: 50px;
+	background-color: #3d3d3d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.botonpersonalredes p{
+	color: white!important;
+	font-weight: 400;
+	font-size: 18px;
+}
+.botonpersonalredes:hover{
+	background-color: white;
+}
+.botonpersonalredes:hover p{
+	color: #3d3d3d!important;
+}
+.bloquestream{
+	margin-top: 250px;
+	margin-left: 0%;
+	width: 100%;
+}
+.planpersonalredes2{
+	margin-top: 800px;
+	width: 100%;
+	height: 230px;
+	background-image: url(../img/stream.png);
+	background-size: cover;
+	background-position: left;
+	padding:20px;
+	display: block;
+}
+
+.planpersonalredes2 div h2{
+	width: 100%;
+	font-weight: 800;
+	line-height:52px;
+	font-size: 38px;
+	color: #3d3d3d;
+}
+.planpersonalredes2 .textopersonal{
+	margin-top: 50px;
+	width: 100%;
+	font-size: 18px;
+	color: #3d3d3d;
+}
+.planpersonalredes2 .textopersonal2{
+	margin-top: 70px;
+	width: 100%;
+	font-size: 18px;
+	color: #3d3d3d;
+}
+.otratarifaredes{
+	margin-top: 860px;
+	width: 100%;
+	text-align: center;
+	background-color: rgba(0, 0, 0, .06);
+	padding: 15px;
+}
+.otratarifaredes h2{
+	color: orange;
+	margin-bottom: 20px;
+}
+.otratarifaredes p{
+	color: #3d3d3d;
+	width: 100%;
+	margin: 0 auto;
+}
+.contactoserviciomulti{
+	padding-top: 150px;
+}
+/*+++++++++++++++++++++++ BRANDING ++++++++++++++++++*/
+.brandilus{
+	margin-right: 100px;
+	width:800px;
+	height: 700px;
+	background-image: url(../img/branding.png);
+	background-size: cover;
+	background-position: center;
+}
+.iconologoman{
+	width: 80px;
+	height: 80px;
+	background-image: url(../img/manual1.png);
+	background-size: cover;
+	margin: 0 auto;
+}
+.iconologoman2{
+	width: 80px;
+	height: 80px;
+	background-image: url(../img/manual2.png);
+	background-size: cover;
+	margin: 0 auto;
+}
+.tarifaslogosmar{
+	width: 100%;
+	height: 800px;
+	display: flex;
+	justify-content: space-around;
+	padding:0 300px;
+}
+.planpersonalmar{
+	margin-top: 200px;
+	width: 100%;
+	height: 580px;
+	background-image: url(../img/brand.png);
+	background-size: cover;
+	background-position: bottom;
+	padding:80px 100px;
+}
+.planpersonalmar div h2{
+	width: 50%;
+	font-weight: 800;
+	line-height:62px;
+	font-size: 48px;
+	color: #3d3d3d;
+}
+.planpersonalmar .textopersonal{
+	margin-top: 50px;
+	width: 25%;
+	font-size: 18px;
+	color: #3d3d3d;
+}
+.botonpersonalmar{
+	margin-top: 140px;
+	width: 200px;
+	height: 50px;
+	background-color: #3d3d3d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.botonpersonalmar p{
+	color: white!important;
+	font-weight: 400;
+	font-size: 18px;
+}
+.botonpersonalmar:hover{
+	background-color: white;
+}
+.botonpersonalmar:hover p{
+	color: #3d3d3d!important;
+}
+.datos{
+	cursor: auto  !important;
+}
+.datospag{
+	text-decoration: none;
+	color: white;
+}
 }
