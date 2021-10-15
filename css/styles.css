@@ -2924,7 +2924,7 @@ width: 100%;}
 }
 .tarifaslogos{
 	width: 100%;
-	height: 3800px;
+	height: 2000px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -3000,32 +3000,37 @@ font-weight: 500;
 }
 /*+++++++++++++++OTRA TARIFA++++++++++++++*/
 .otratarifa{
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 	display: flex;
+	flex-direction: column;
 	justify-content: space-between;
 
 }
 .otratarifa div h2{
 	font-size: 36px;
 	color: orange;
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
+	line-height: 44px;
 }
 .otroplan{
 	display: flex;
 	flex-wrap: wrap;
-	width: 80%;
+	width: 100%;
+	margin-top: 30px;
 }
 .otroplan .tic{
 	color: #67a969;
 	font-size: 20px;
 	margin-left: 20px;
+
 }
 .textotarfi{
 	display: flex;
 	align-items: center;
-	width:  50%;
+	width:  100%;
+margin-top: 10px;
 }
 .textotarfi div{
 	font-size: 18px;
@@ -3040,29 +3045,32 @@ font-weight: 500;
 }
 /*+++++++++++++++++PLAN PERSONAL++++++++++++++++++++*/
 .planpersonal{
-	margin-top: 200px;
+	margin-top: 120px;
 	width: 100%;
-	height: 580px;
-	background-image: url(../img/planespecial3.jpg);
+	height: 280px;
+	background-image: url(../img/planespecialmovil.png);
 	background-size: cover;
-	background-position: bottom;
-	padding:80px 100px;
+	background-position:center ;
+	padding:0px;
 }
 .planpersonal div h2{
-	width: 50%;
+	width: 100%;
 	font-weight: 800;
-	line-height:62px;
-	font-size: 48px;
+	line-height:40px;
+	font-size: 30px;
 	color: #3d3d3d;
+	padding:300px 0px 0 20px;
+
 }
+
 .planpersonal .textopersonal{
-	margin-top: 50px;
-	width: 25%;
+	width: 100%;
+	padding: 0 20px;
 	font-size: 18px;
 	color: #3d3d3d;
 }
 .botonpersonal{
-	margin-top: 140px;
+	margin: 50px auto 0px auto;
 	width: 200px;
 	height: 50px;
 	background-color: #3d3d3d;
@@ -3084,35 +3092,31 @@ font-weight: 500;
 }
 /*++++++++++++++++++CONECTA++++++++++++++++++*/
 .conecta{
-	margin-top: 200px;
+	margin-top: 500px;
 	width: 100%;
-	height: 420px;
+	height: 140px;
 	background-image: url(../img/conecta2.png);
 	background-size: cover;
-	background-position: top;
+	background-position: left;
 	display: flex;
-	justify-content: right;
+	flex-direction: column;
 	align-items: center;
-	padding: 0 100px;
+		padding: 20px;
 }
 .conectatexto{
-	width: 25%;
-	margin-top: 70px;
-	font-size: 16px;
+	width: 100%;
+	margin-top:150px;
+	font-size: 18px;
+	padding-right: 20px;
 }
 /*++++++++++++++++++CÓMO TRABAJAMOS++++++++++++++++++*/
 .trabajamos{
-	margin-top: 150px;
-	width: 100%;
-	height: 450px;
-	background-position: center;
-	background-size: cover;
-	background-image: url(../img/comotrabajamos4.jpg);
+display: none;
 }
 /*++++++++++++++++++CONTACTO SERVICIOS++++++++++++++++++*/
 .contactoservicio{
-	margin: 150px auto;
-	width: 45%;
+	margin: 550px auto 100px auto;
+	width: 100%;
 	text-align: center;
 }
 .contactoservicio h3{
@@ -3146,7 +3150,7 @@ font-weight: 500;
 	height: 150px;
 }
 .botonformu{
-	margin-top: 30px;
+	margin: 30px auto 0px auto;
 	width: 200px;
 	height: 60px;
 	background-color: #3d3d3d;
